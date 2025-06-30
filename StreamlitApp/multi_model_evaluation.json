@@ -1,0 +1,56 @@
+[
+  {
+    "SNO": 1,
+    "prompt": "What are the common lifestyle modifications recommended for managing Type 2 Diabetes, and what role do oral medications play in its treatment?",
+    "models": {
+      "Perplexity": {
+        "ROUGE-1_F1": 0.4062,
+        "ROUGE-2_F1": 0.2356,
+        "ROUGE-L_F1": 0.3021,
+        "BLEU": 0.0709,
+        "METEOR": 0.5034,
+        "Cosine_Similarity_Score": 0.7938,
+        "Coherence_Score": 0.9,
+        "Hallucination_Score": 0.0,
+        "Relevance_Score": 1.0,
+        "Faithfulness_Score": 1.0
+      },
+      "Gemini": {
+        "ROUGE-1_F1": 0.5946,
+        "ROUGE-2_F1": 0.3562,
+        "ROUGE-L_F1": 0.5676,
+        "BLEU": 0.1726,
+        "METEOR": 0.4641,
+        "Cosine_Similarity_Score": 0.8659,
+        "Coherence_Score": 0.8,
+        "Hallucination_Score": 0.0,
+        "Relevance_Score": 1.0,
+        "Faithfulness_Score": 1.0
+      },
+      "OpenAI": {
+        "ROUGE-1_F1": 0.7293,
+        "ROUGE-2_F1": 0.5587,
+        "ROUGE-L_F1": 0.6519,
+        "BLEU": 0.4016,
+        "METEOR": 0.6276,
+        "Cosine_Similarity_Score": 0.9708,
+        "Coherence_Score": 0.9,
+        "Hallucination_Score": 0.0,
+        "Relevance_Score": 1.0,
+        "Faithfulness_Score": 1.0
+      },
+      "AWS Nova-Lite": {
+        "ROUGE-1_F1": 0.663,
+        "ROUGE-2_F1": 0.4581,
+        "ROUGE-L_F1": 0.5525,
+        "BLEU": 0.2934,
+        "METEOR": 0.5593,
+        "Cosine_Similarity_Score": 0.8323,
+        "Coherence_Score": 0.8,
+        "Hallucination_Score": 0.0,
+        "Relevance_Score": 1.0,
+        "Faithfulness_Score": 1.0
+      }
+    }
+  }
+]

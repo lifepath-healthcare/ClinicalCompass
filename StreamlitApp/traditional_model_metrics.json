@@ -1,0 +1,43 @@
+[
+    {
+        "use_case": "Drug Dosage Prediction",
+        "algorithm": "Regression",
+        "model": "Linear Regression",
+        "metrics": {
+            "MAE": 3.737,
+            "MSE": 16.6377,
+            "RMSE": 4.079,
+            "R2_Score": 0.963
+        }
+    },
+    {
+        "use_case": "Early Detection of Rare Autoimmune Disease",
+        "algorithm": "Classification",
+        "model": "Logistic Regression",
+        "metrics": {
+            "Accuracy": 0.978,
+            "Precision": 0.7692,
+            "Recall": 0.8,
+            "F1_Score": 0.7843
+        }
+    },
+    {
+        "use_case": "Patient Subgroups",
+        "algorithm": "Clustering",
+        "model": "K-Means Clustering",
+        "metrics": {
+            "Silhouette_Score": 0.8145,
+            "Davies_Bouldin_Index": 0.2831,
+            "Calinski_Harabasz_Index": 124.9657
+        }
+    },
+    {
+        "use_case": "Pneumonia Detection from Chest X-Rays",
+        "algorithm": "Image Detection",
+        "model": "CNN",
+        "metrics": {
+            "Accuracy": 0.808,
+            "ROC_AUC_Score": 0.8932
+        }
+    }
+]
